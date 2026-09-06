@@ -1,4 +1,4 @@
-# recurseApp
+# Recurse Center Application
 
 I created two different calculators. 
 
