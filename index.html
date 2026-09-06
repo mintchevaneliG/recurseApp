@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="calculator.js" defer></script> 
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display">
+        <div class="keys">
+            <button class="operator-btn-parenthesis" onclick="appendToDisplay('(')">(</button>
+            <button class="operator-btn-parenthesis" onclick="appendToDisplay(')')">)</button>
+            <button class="operator-btn-percent" onclick="appendToDisplay('%')">%</button>
+            <button class="operator-btn" onclick="appendToDisplay('+')">+</button>
+
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button class="operator-btn" onclick="appendToDisplay('/')">÷</button>
+
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button> 
+            <button onclick="appendToDisplay('6')">6</button>
+            <button class="operator-btn" onclick="appendToDisplay('*')">×</button>
+
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button class="operator-btn" onclick="appendToDisplay('-')">-</button>
+
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button class="clear-btn" onclick="clearLastChar()">Clear One</button>
+            <button class="clear" onclick="clearAll()">Clear All</button>
+
+            <button class="equal-btn" onclick="calculate()">=</button>
+        </div>
+    </div>
+</body>
+</html>
