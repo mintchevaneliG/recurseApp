@@ -103,11 +103,7 @@ function evaluateExpression(expression) {
 function calculate() {
     try {
         const result = evaluateExpression(display.value);
-        if (result === 404) {
-            display.value = "Math Not Found";
-        } else {
-            display.value = result;
-        }
+        display.value = result;
     } catch (error) {
         display.value = "Error, please try again";
     }
