@@ -12,6 +12,7 @@ body {
     border-radius: 20px;
     width: 400px;
 }
+
 #display {
     width: 100%;
     height: 60px;
@@ -24,6 +25,7 @@ body {
     border-radius: 10px;
     margin-bottom: 15px;
 }
+
 .keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
